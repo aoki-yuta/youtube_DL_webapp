@@ -12,4 +12,3 @@ https://aoki-yuta-youtube-dl-webapp-main-app-wi8rlc.streamlitapp.com/
 ## 今後
 * 音声のみにコンバート
 * 解像度指定
-* 他の人の履歴見れちゃう問題

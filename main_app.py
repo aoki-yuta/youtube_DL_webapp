@@ -52,6 +52,11 @@ if st.button("実行"):
 st.markdown("""---""")
 st.header("履歴")
 
+if st.button("履歴削除"):
+    for p in Path('download').iterdir():
+        if p.is_file():
+            p.unlink()
+
 
 for file in Path('download').iterdir():
     if not file.name.startswith('.'):
