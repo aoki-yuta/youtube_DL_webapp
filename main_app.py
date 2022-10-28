@@ -2,6 +2,10 @@ import streamlit as st
 from yt_dlp import YoutubeDL
 from pathlib import Path
 
+
+Path('download').mkdir(exist_ok=True)
+
+
 st.title("youtubeをダウンロードするアプリ")
 st.markdown("""---""")
 st.header("ダウンロード")
