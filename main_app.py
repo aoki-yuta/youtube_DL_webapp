@@ -34,7 +34,7 @@ def my_hook(d):
 
 
 ydl_opts = {
-    'format': "bv*[vcodec~='^((he|a)vc|h26[45])'][height=1080]+bestaudio[ext=m4a]",
+    'format': "bv*[vcodec~='^((he|a)vc|h26[45])']+bestaudio[ext=m4a]",
     'outtmpl': 'download/%(title)s.%(ext)s',
     'merge-output-format':"mp4",
     'progress_hooks': [my_hook],
